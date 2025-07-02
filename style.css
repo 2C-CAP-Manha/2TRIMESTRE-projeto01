@@ -6,6 +6,7 @@ body{
     font-family: "Bebas Neue", sans-serif;
     font-size: 1.5rem;
     color: rgb(193, 188, 188);
+
 }
 
 
@@ -16,6 +17,7 @@ footer{
     bottom: 0;
     width: 100%;
     height: 2rem;
+
 }
 
 footer p{
@@ -25,3 +27,47 @@ footer p{
     color:white;
 
 }
+
+#contaier{
+    display; flex;
+
+}
+
+.cartao{
+    margin:1rem 1rem;
+    background-color:rgb(4, 21, 64);
+    height:20rem;
+    flex-grow:1;
+    flex-basis:calc(33%-6rem);
+
+}
+
+.cartao_conteudo{
+    text-align: center;
+    background-color:rgb(21, 197, 135);
+    height:100%;
+    transform-style:preserve-3d;
+    transition:transform 300ms ease-in-out;
+}
+
+.cartao_conteudoh3{
+    background-color:black;
+    color:white;
+    text-align:left;
+    padding:o.5rem;
+    position:absolute;
+    margin:0.6rem;
+    border-radius:0.6rem;
+    font-size: 1vw;
+    backface-visibility: hidden;
+
+}
+
+.cartao:houver .cartao_conteudo{
+    transform:rotateY(180deg);
+}
+
+.cartao_conteudo_pergunta, .cartao_conteudo_resposta{
+    backface-visibility: hidden;
+}
+
