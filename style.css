@@ -2,14 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body{
-    background-color: rgb(29, 52, 108);
+    background-color: rgb(5, 21, 63);
     font-family: "Bebas Neue", sans-serif;
+    font-size: 1.5rem;
+    color: rgb(193, 188, 188);
 }
 
 
 footer{
-    background-color: rgba(234, 168, 55, 0.95);
-    color:rgb(255, 255, 255);
+    background-color: rgba(243, 227, 47, 0.95);
+    color:rgb(233, 233, 233);
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -18,7 +20,8 @@ footer{
 
 footer p{
     text-align: center;
-    font-size: 1.0rem;
-    maring-top: 1.3rem;
+    font-size: 1.5rem;
+    margin-top:0.5rem;
+    color:white;
 
 }
