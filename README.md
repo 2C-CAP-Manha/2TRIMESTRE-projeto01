@@ -1,3 +1,4 @@
 # 2TRIMESTRE-projeto01
 
-Ana e Luan
+Ana, Isadora e Luan
+
