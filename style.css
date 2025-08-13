@@ -42,7 +42,7 @@ footer p{
     flex-basis: calc(33% - 6rem);
     }
 
-.cartao_conteudo {
+.cartao_conteudo p{
     text-align: center;
     background-color: rgb(240, 235, 75);
     height: 100%;
