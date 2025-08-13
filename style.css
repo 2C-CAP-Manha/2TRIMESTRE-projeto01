@@ -23,6 +23,17 @@ footer p{
 
 }
 
+.cartao:hover .cartao__conteudo {
+    transform: rotateY(180deg);
+}
+
+.cartao__conteudo {
+   background-color: var(--card-front-color);
+   text-align: center;
+   height: 100%;
+   transform-style: preserve-3d;
+   transition: transform 300ms ease-in-out;
+}
 .cartao {
     margin: 1rem 1rem;
     background-color: rgb(246, 235, 26);
